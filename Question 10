@@ -1,0 +1,8 @@
+# PythonPractice
+import random
+x = random.sample(range(1,30), 12)
+y = random.sample(range(1,30), 16)
+c = [i for i in x if i in y]
+print(x)
+print(y)
+print(c)
