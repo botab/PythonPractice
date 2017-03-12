@@ -1,0 +1,19 @@
+# PythonPractice
+print('what is your handsign?')
+x = input()
+print(x)
+print('what is your second hand sign?')
+y = input()
+while True:
+  if x == "rock" and y == "scissors":
+    print('Rock beats scissors')
+    break
+  if x == "scissor" and y == "paper":
+    print('Scissors beats paper')  
+    break
+  if x == "paper" and y == "rock":
+    print('Rock beats scissors')  
+    break
+  else:
+    print('u dumfuk')
+    break
