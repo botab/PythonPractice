@@ -1,0 +1,10 @@
+# PythonPractice
+print('enter palindrome or not')
+x = str(input())
+y = x[::-1]
+print(y)
+print(x)
+if y == x:
+  print('same same, not different')
+else:
+    print('not same, different'
