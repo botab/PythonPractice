@@ -12,5 +12,5 @@ while True:
     print("wrong number, fool, guess lower")
     count = count + 1
   if x == number:
-    print('you guessed right, nignog')
+    print('you guessed right, nignog and it only took you ' + str(count) + ' tries')
     break
