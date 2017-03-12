@@ -1,0 +1,17 @@
+# PythonPractice
+def prime():
+  print('tell me you hit')
+  x = int(input())
+  if x > 1:
+    for i in range(2,x):
+      if x%i == 0:
+        print('aint prime number, fool')
+        break
+      else: 
+        print('dude, you prime?')
+        break
+  else:
+    print('dude, you prime?')
+  return
+
+prime()
