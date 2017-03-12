@@ -1,0 +1,11 @@
+# PythonPractice
+import random
+a = random.sample(range (100),10)
+def fnl():
+  b = []
+  b.append(a[0])
+  b.append(a[-1])
+  print (a)
+  print (b)
+   
+fnl()
