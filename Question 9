@@ -1,0 +1,16 @@
+# PythonPractice
+import random
+number = random.randint(1,10)
+print('Take a guess, my nignog?')
+count = 0
+while True:
+  x = int(input())
+  if x < number:
+    print("wrong number, fool, guess higher")
+    count = count + 1
+  if x > number:
+    print("wrong number, fool, guess lower")
+    count = count + 1
+  if x == number:
+    print('you guessed right, nignog')
+    break
